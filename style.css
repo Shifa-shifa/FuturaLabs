@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first-page{
+    background-color: rgba(68, 18, 122);
+}
+.second-page{
+    background-color: white;
+}
+.third-page{
+    background-color: rgb(238, 232, 241);
+}
+.forth-page{
+    background-color: white;
+}
+.top{
+    padding-top: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menus>ul{
+    color: white;
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    gap: 70px;
+    padding-right: 80px;
+    font-size: 22px;
+    align-items: center;
+}
+.menus button{
+    border-style: none;
+    border-radius: 40px;
+    height: 40px;
+    width: 140px;
+    background-color: orange;
+    font-size: 17px;
+}
+.menus button:hover{
+    background-color: rgb(148, 0, 211)
+}
+.head>h1{
+    padding-top: 10px;
+    padding-left: 100px;
+    font-size: 80;
+    color: orange;
+}
+.head>p{
+    padding-top: 40px;
+    padding-left: 100px;
+    color: white;
+    font-size: 20;
+}
+.button12{
+    padding-top: 25px;
+    padding-left: 100px;
+    display: flex;
+    gap: 20px;
+}
+.btn1{
+    border: 1px solid;
+    border-radius: 10px;
+    height: 40px;
+    width: 140px;
+    background-color: rgba(68, 18, 122);
+    color: white;
+}
+.btn2{
+    border: 1px solid;
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+    background-color: rgba(68, 18, 122);
+    color: white;
+}
+.btn1:hover{
+    background-color: white;
+    color: rgba(68, 18, 122);
+}
+.btn2:hover{
+    background-color: white;
+    color: rgba(68, 18, 122);
+}
+.placements{
+    padding-top: 30px;
+    display: flex;
+    justify-content: end;
+    padding-right: 170px;
+}
+.main{
+    padding-top: 10px;
+    display: flex;
+}
+.first{
+    flex: 1;
+}
+.boy-girl{
+    display: flex;
+    flex: 1;
+}
+.boy-girl>img{
+    width: 800px;
+    object-fit: contain;
+}
+.round{
+    position: relative;
+    top: 350px;    
+    height: fit-content;
+    animation-name: img-rotate;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes img-rotate{
+    0% {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg;
+    }
+
+}
+.second-page{
+    padding-top: 100px;
+    text-align: center;
+}
+.second-page>h3{
+    font-size: 20;
+}
+.second-page>h2{
+    color: rgba(68, 18, 122);
+    font-size: 35;
+}
+.second-page>p{
+    font-size: 22;
+}
+.button123{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.btn11{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 40px;
+    width: 140px;
+    background-color: rgba(68, 18, 122);
+}
+.btn12{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+}
+.btn13{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+}
+.box10{
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    flex-wrap: wrap;
+}
+.box10>div{
+    width: 350px;
+    height: 150px;
+    border: 1px solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box10>div:hover{
+    border-color: orange;
+}
+.box10 img{
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+}
+.button1{
+    display: flex;
+    justify-content: center;
+}
+.btn-view{
+    background-color: white;
+    color: rgba(68, 18, 122);
+    border: 1px solid;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+}
+.btn-view:hover{
+    background-color: rgba(68, 18, 122);
+    color: white
+}
+.third-page{
+    padding: 60px;
+    display: flex;
+}
+.paragraph{
+    flex: 1;
+}
+.paragraph>h2{
+    color: rgba(68, 18, 122);
+    font-size: 35px; 
+}
+.btn-more{
+    color: rgba(68, 18, 122);
+    border: 1px solid;
+    border-radius: 10px;
+    height: 40px;
+    width: 130px;
+}
+.btn-more:hover{
+    background-color: rgba(68, 18, 122);
+    color: white;
+}
+.girl-pic{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.boxes{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.box4{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px; 
+}
+.box1{
+    background-color: white;
+    border-radius: 20px;
+    height: 120px;
+    width: 200px;
+    padding: 20px;
+}
+.box1 h1{
+    color: rgba(68, 18, 122); 
+    font-size: 35px;
+}
+.choose-paragraph{
+    padding-top: 100px;
+    text-align: center;
+}
+.choose-paragraph>h2{
+    color: rgba(68, 18, 122);
+    font-size: 35px; 
+}
+.boxes123{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 20px;
+}
+.bx{
+    border: 1px solid;
+    border-radius: 25px;
+    height: 400px;
+    width: 410px;
+}
+.bx img{
+    padding: 20px;
+}
+.bx h3{
+    color: rgba(68, 18, 122); 
+    padding: 10px;
+    font-size: 23px;
+}
+.nextpara-btn{
+   text-align: center;
+}
+.nextbtn-more{
+    color: rgba(68, 18, 122);
+    border: 1px solid;
+    border-radius: 10px;
+    height: 40px;
+    width: 130px;
+}
+.nextbtn-more:hover{
+    background-color: rgba(68, 18, 122);
+    color: white;
+}
